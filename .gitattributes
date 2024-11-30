@@ -1,0 +1,7 @@
+musl/lib/libclang.so filter=lfs diff=lfs merge=lfs -text
+lib/libLTO.so.16 filter=lfs diff=lfs merge=lfs -text
+lib/libLLVM-16.so filter=lfs diff=lfs merge=lfs -text
+lib/liblldb.so.16.0.2 filter=lfs diff=lfs merge=lfs -text
+lib/libclang.so filter=lfs diff=lfs merge=lfs -text
+lib/libclang-cpp.so.16 filter=lfs diff=lfs merge=lfs -text
+bin/clang-16 filter=lfs diff=lfs merge=lfs -text
